@@ -125,7 +125,7 @@ class Account extends Company implements EmailInterface
     public $bug_id ='';
     public $module_dir = 'Accounts';
     public $emailAddress;
-
+    public $ip_saved_from_ip_c;
 
     public $table_name = "accounts";
     public $object_name = "Account";
